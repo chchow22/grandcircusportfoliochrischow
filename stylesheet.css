@@ -1,0 +1,44 @@
+.background {
+	position: fixed;
+    background-image: url('neptune.jpg');
+    opacity: 0.1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1
+
+}
+
+
+
+@font-face {
+    font-family: 'AnimalFont'; /*a name to be used later*/
+    src: url('animalfont.ttf'); /*URL to font*/
+}
+
+h1 {
+	font-family: 'AnimalFont';
+}
+
+blockquote {
+	color: blue;
+}
+
+#worst {
+	color: green;
+}
+
+.horribleFood {
+	color: orange;
+}
+
+img {
+	box-shadow: 3px 3px 3px #101316;
+	border: 2px solid #f45042;
+	border-radius: 10px;
+}
+
+.name {
+	color: blue;
+}
