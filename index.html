@@ -3,8 +3,10 @@
 	<head>
 		<title> Chris's Portfolio </title>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script type="text/javascript" src="javascript.js"></script>
 	</head>
 	<body style="background-color:#EBDEF0;">
+
 		<div class = "background">
 		</div>
 		<header>
@@ -17,6 +19,7 @@
 		<img src = "squirrel.jpg" width = 120 height = 120>
 		<hr>
 		<ul>
+			<li> <a href = "index.html"> Home </a> </li>
 			<li> <a href = "about.html"> About </a> </li>
 			<li> <a href = "contact.html"> Contact </a> </li>
 		</ul>
@@ -37,5 +40,15 @@
 		<blockquote>
 			<p> "The only way to keep your health is to eat what you don't want, drink what you don't like, and do what you'd rather not." - Mark Twain </p>
 		</blockquote>
+		<p> Insert a food name here and I will make it more exciting (Word appears below submit button): </p>
+		<form> 
+			<p class = "exciter"> Food:
+		    	<input type="text" name="exciter" size="15" maxlength="30" id = "exciteBox"/>
+			</p> 
+		</form>
+
+		<button onclick="addExclamation()">Submit</button>
+		<p id="resultText"> </p>
+
 	</body>
 </html>
