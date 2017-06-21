@@ -61,3 +61,19 @@ li a:hover {
     background-color: #42414f;
     color: #000;
 }
+
+#introduction {
+    color: blue;
+}
+
+.submitButton {
+    color: orange;
+    padding: 16px 30px;
+}
+
+.contactForm {
+    width : 50%;
+    padding: 8px 10px;
+    border-radius: 4px;
+
+}
